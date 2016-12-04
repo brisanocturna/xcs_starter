@@ -10,13 +10,24 @@ describe('Hello World', () => {
     fixture.destroy();
   });
 
-  it('must say to someone', () => {
+  it('must say hello to someone', () => {
     const helloWorld = new HelloWorld({
       who: 'Jhon Doe'
     });
     const fixture = Fixtures.get();
     fixture.append(helloWorld.render());
     expect(fixture.hasText('div', 'Hello Jhon Doe')).toBe(true, '');
+    fixture.destroy();
+  });
+
+  it('must say good Bye', () => {
+    const helloWorld = new HelloWorld({
+      who: 'Jhon Doe'
+    });
+    const fixture = Fixtures.get();
+    helloWorld.sayBye();
+    fixture.append(helloWorld.render());
+    expect(fixture.hasText('div', 'Bye Jhon Doe')).toBe(true, '');
     fixture.destroy();
   });
 });
