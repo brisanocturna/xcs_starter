@@ -1,4 +1,4 @@
-## xcs_boilerplate
+## xcs_starter
 
 xuscrus' minimal base project start
 
