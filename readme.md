@@ -2,6 +2,11 @@
 
 xuscrus' minimal base project start
 
+### Start project
+```
+> npm install
+```
+
 ### Base commands
 Run dev
 ```
@@ -20,7 +25,7 @@ Check contnius integration
 
 Make build
 ```
-> npm run build
+> npm run dist
 ```
 
 ### Features
