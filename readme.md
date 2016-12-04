@@ -27,7 +27,7 @@ Make build
 * [EditorConfig](http://editorconfig.org/) write well =D
 * [eslint](http://eslint.org/) linter =D
 * [webpack](https://webpack.github.io/)  bundle =D
-* [Babel](https://webpack.github.io/) JS  transpiler es6 ready =>
+* [Babel](https://webpack.github.io/) JS  transpiler es6 ready =D
 * Testing
-  * [Karma](https://karma-runner.github.io/1.0/index.html) test runner
-  * [jasmine](https://jasmine.github.io/) bdd
+  * [Karma](https://karma-runner.github.io/1.0/index.html) test runner =D
+  * [jasmine](https://jasmine.github.io/) bdd =D
